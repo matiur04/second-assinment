@@ -1,3 +1,50 @@
+  /* ----------------------
+        Max-width 800px
+----------------------------------- */
+
+@media only screen and (max-width: 800px) {
+    .header_section {
+        display: flex;
+        justify-content: center;
+    }
+    .main_header {
+        width: 90%;
+    }
+    .header_text h1 {
+        font-size: 45px;
+    }
+    .header_text .btn {
+        margin-top: 25px;
+    }
+    .header_img {
+        width: 100%;
+        height: auto;
+    }
+    /* --------
+        Blogs style
+    ------------ */
+    .container {
+        width: 90%;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .single_blog img {
+        width: 100%;
+    }
+    .blog_area{
+        
+    }
+    .form_area{
+     
+    }
+    .footer_area{
+    
+    }
+      }
+
+
 @media only screen and (max-width: 600px) {
 
 
