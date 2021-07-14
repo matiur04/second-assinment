@@ -97,7 +97,6 @@ body{
     display: flex;
     justify-content: center;
 }
-.container{}
 .blog_area{
     margin: 70px auto;
 }
@@ -117,9 +116,6 @@ body{
     font-weight: 700;
     margin: 15px auto;
 }
-.single_blog{}
-.single_blog{}
-
 .single_blog img{
     width:300px;
     border-radius: 5px;
@@ -133,8 +129,6 @@ body{
     background-color: red;
     transition: all 0.7s ease-in-out;
 }
-.single_blog h2{}
-.single_blog p{}
 
 /* -----------
         form style
@@ -143,7 +137,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.form_modify{}
 .label_style{
     font-size: 20px;
     font-weight: 700;
@@ -195,7 +188,6 @@ textarea{
     padding: 25px 15px;
     border-radius: 10px;
 }
-.form_area{}
 
 /* ----------------
         video_area styles
@@ -220,10 +212,6 @@ textarea{
     padding: 20px;
     margin: 20px;
 }
-.video_area{}
-.video_area{}
-
-
 
 /* -------------
     Footer Styles
@@ -243,15 +231,12 @@ textarea{
 }
 .main_footer{
     width: 1050px;
-  
     margin: 0 auto;
     text-align: center;
-
 }
 .main_footer img{
     width: 490px;
 }
-.social_logo{}
 .social_logo a{
     text-decoration: none;
 }
@@ -276,5 +261,4 @@ textarea{
     background-color: #969BAB;
     color: #E7E7E8;
     transform: scale(1.2);
-
 }
