@@ -91,6 +91,10 @@
 .match_img{
     margin-top: 25px;
 }
+.world_cup_video{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .footer_area{
 
 }

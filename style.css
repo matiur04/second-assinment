@@ -205,6 +205,31 @@ textarea{
 }
 .form_area{}
 
+/* ----------------
+        video_area styles
+------------------------ */
+.video_area{
+    margin-top: 50px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 10px;
+}
+.video_area iframe{
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 5px;
+}
+.world_cup_video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.singale_videio{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+.video_area{}
+.video_area{}
+
 
 
 /* -------------
