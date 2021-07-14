@@ -23,14 +23,6 @@ body{
 .header_section{
     margin: 85px 0;
 }
-/* .main_header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1050px;
-    box-sizing: border-box;
-
-} */
 .main_header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -52,7 +44,7 @@ body{
     background-color: #E02C6D;
     border: none;
     cursor: pointer;
-    transition:all 1.5s ease-in-out;
+    transition:all 1s ease-in-out;
 
 }
 .btn a{
@@ -60,7 +52,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    transition:all 1.5s ease-in-out;
+    transition:all 1s ease-in-out;
 
 }
 .fa-arrow-right{
@@ -70,7 +62,7 @@ body{
     background-color: #3DBAFD;
     color: #E02C6D;
     transform: scale(1.2);
-    transition:all 1.5s ease-in-out;
+    transition:all 1s ease-in-out;
     margin-left: 20px;
 
 }
@@ -87,7 +79,7 @@ body{
 }
 .header_img img{
     width: 90%;
-    transition: all 2s ease;
+    transition: all 1s ease;
     box-sizing: border-box;
 }
 .header_img:hover img{
@@ -118,7 +110,7 @@ body{
     border-radius: 5px;
     padding: 20px;
     margin: 7px;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .single_blog h2{
     font-size: 28px;
@@ -133,13 +125,13 @@ body{
     border-radius: 5px;
  
     transform: scale(1);
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .single_blog:hover img{
     transform: scale(1.05);
     transform: rotate(5deg);
     background-color: red;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .single_blog h2{}
 .single_blog p{}
@@ -177,12 +169,12 @@ textarea{
     cursor: pointer;
     font-size: 20px;
     margin-top: 15px;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .submit_btn:hover{
     background-image: linear-gradient(45deg, #FE492E, #2D25A0);
     padding: 10px 35px;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
     color: yellow;
 }
 .match_img{
@@ -210,13 +202,14 @@ textarea{
 ------------------------ */
 .video_area{
     margin-top: 50px;
-    box-shadow: 1px 1px 2px;
+    box-shadow: 1px 1px 5px;
     border-radius: 10px;
 }
 .video_area iframe{
     border-radius: 10px;
     border: 2px solid red;
     padding: 5px;
+    height: 315px;
 }
 .world_cup_video{
     display: grid;
@@ -270,9 +263,10 @@ textarea{
     height: 30px;
     line-height: 30px;
     font-size: 30px;
+    border: 1px solid #969BAB;
     border-radius: 50px;
     color: #969BAB;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .main_footer p {
     font-size: 18px;
@@ -283,10 +277,4 @@ textarea{
     color: #E7E7E8;
     transform: scale(1.2);
 
-}
-.main_footer {}
-.extra{
-    width: 100%;
-    height: 900px;
-    background-color: yellow;
 }

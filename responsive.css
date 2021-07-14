@@ -33,6 +33,9 @@
     .single_blog img {
         width: 100%;
     }
+    .video_area iframe{
+        height: auto;
+    }
     .blog_area{
         
     }
@@ -43,6 +46,60 @@
     
     }
       }
+ /* ---------------------
+        Screen width 1050
+    ------------------------ */
+    @media only screen and (max-width: 1050px) {
+        .header_section {
+            display: flex;
+            justify-content: center;
+        }
+        .main_header {
+            width: 90%;
+        }
+        .header_text h1 {
+            font-size: 45px;
+        }
+        .header_text .btn {
+            margin-top: 25px;
+        }
+        .header_img {
+            width: 100%;
+            height: auto;
+        }
+        /* --------
+            Blogs style
+        ------------ */
+        .container {
+            width: 90%;
+        }
+        .blogs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .single_blog img {
+            width: 100%;
+        }
+        .video_area iframe{
+            height: 300px;
+        }
+        .blog_area{
+            
+        }
+        .form_area{
+         
+        }
+        .footer_area{
+        
+        }
+          }
+
+
+
+ /* ---------------------
+        Screen width 600
+    ------------------------ */
+
 
 
 @media only screen and (max-width: 600px) {
@@ -94,6 +151,9 @@
 .world_cup_video{
     display: grid;
     grid-template-columns: 1fr;
+}
+.video_area iframe{
+    height: auto;
 }
 .footer_area{
 
