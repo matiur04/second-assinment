@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+
+
+.main_header{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header_text {
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+.header_text h1 {
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.header_img{
+    padding-left: 50px;
+    box-sizing: border-box;
+    width: 90%;
+}
+.blog_area{
+    
+}
+.container{
+    width: 90%; 
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.single_blog img{
+    width: 90%;
+
+}
+.form_area{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.match_img{
+    margin-top: 25px;
+}
+.footer_area{
+
+}
+.main_footer {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_footer img {
+    width: 100%;
+}
+.social_logo .fab {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 15px;
+}
+
+  }
